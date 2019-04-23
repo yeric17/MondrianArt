@@ -36,14 +36,14 @@ public class InteractiveARObject : MonoBehaviour
         }
         if(thisAnimator != null)
         {
-            thisAnimator.SetTrigger(animName);
+            thisAnimator.SetBool("Interact", true);
         }
     }
 
     public void StopInteraction()
     {
-        if(thisAnimator != null)
-        thisAnimator.SetTrigger("Idle");
+        if (thisAnimator != null)
+            thisAnimator.SetBool("Interact", false);
 
         if (audioPlayer != null)
             audioPlayer.Stop();
