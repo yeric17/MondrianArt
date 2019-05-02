@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="PietMondrian_Retrato" size="1.000000 0.986667" />
     <ImageTarget name="Mondrian_Gemberpot_2" size="1.000000 0.867500" />
+    <ImageTarget name="Mondrian_Gemberpot" size="1.000000 0.743618" />
     <ImageTarget name="ElBosque_marcador" size="1.000000 0.809184" />
     <ImageTarget name="composicion_2inLineColor" size="1.000000 0.752930" />
     <ImageTarget name="Mondrian_BrodwayGGogy" size="1.000000 1.003810" />
